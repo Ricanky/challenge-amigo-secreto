@@ -27,3 +27,17 @@ function actualizarListaAmigos(){
         lista.appendChild(elemento);
     }
 }
+
+function sortearAmigo(){
+    if(amigos.length === 0){
+        alert('No hay amigos en la lista');
+    }
+    else{
+        let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+        let ListaResultado = document.getElementById('resultado');
+        ListaResultado.innerHTML = '';
+        let elemento = document.createElement('li');
+        elemento.textContent = amigoSorteado;
+        ListaResultado.appendChild(elemento);
+    }
+}
