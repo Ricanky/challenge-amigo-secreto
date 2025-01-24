@@ -7,7 +7,7 @@ function agregarAmigo(){
         alert('Por favor, inserta un nombre');
     }
     else if(amigos.includes(nombre)){
-        alert('Este amigo ya está en la lista');
+        alert(`El nombre "${nombre}" ya está en la lista`);
     }
     else{
         amigos.push(nombre);
