@@ -14,6 +14,10 @@ function agregarAmigo(){
         document.getElementById('amigo').value = '';
     }
     actualizarListaAmigos();
+    //eliminar resultado de sorteo anterior
+    if(document.getElementById('resultado').innerHTML !== ''){
+        document.getElementById('resultado').innerHTML = '';
+    }
 }
 
 function actualizarListaAmigos(){
@@ -39,6 +43,9 @@ function sortearAmigo(){
         let elemento = document.createElement('li');
         elemento.textContent = "Tu amigo secreto es: "+ amigoSorteado;
         ListaResultado.appendChild(elemento);
+        //eliminar lista de amigos para poder hacer otro sorteo
+        amigos = [];
+        actualizarListaAmigos();
     }
     else{
         alert('No hay suficientes amigos en la lista');
