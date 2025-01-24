@@ -13,6 +13,23 @@ Este es un proyecto desarrollado como parte de un desafío de curso. La aplicaci
 
 ---
 
+## 📝 Cómo usar la aplicación
+
+1. **Ingresa un nombre**  
+   En el campo de texto, escribe el nombre de un amigo que deseas agregar a la lista.
+
+2. **Añade el amigo**  
+   Haz clic en el botón **"Añadir"** para incluir el nombre en la lista de amigos. Si dejas el campo vacío o intentas agregar un amigo ya registrado, recibirás una alerta.
+
+3. **Sortea el amigo secreto**  
+   Una vez que tengas al menos dos amigos en la lista, haz clic en el botón **"Sortear amigo"** para realizar el sorteo. Se mostrará el resultado en pantalla, y la lista de amigos se reiniciará automáticamente para que puedas realizar otro sorteo.
+
+### Ejemplo de la interfaz
+
+![Interfaz de la aplicación](assets/interfaz.png)
+
+---
+
 ## 🛠️ Tecnologías utilizadas
 
 - **HTML**: Estructura básica proporcionada para el desafío.
