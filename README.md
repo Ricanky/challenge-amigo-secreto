@@ -26,7 +26,7 @@ Este es un proyecto desarrollado como parte de un desafío de curso. La aplicaci
 
 ### Ejemplo de la interfaz
 
-![Interfaz de la aplicación](assets/interfaz.png)
+![Interfaz de la aplicación](assets/Interfaz.png)
 
 ---
 
