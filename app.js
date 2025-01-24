@@ -32,12 +32,15 @@ function sortearAmigo(){
     if(amigos.length === 0){
         alert('No hay amigos en la lista');
     }
-    else{
+    else if(amigos.length > 1){
         let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
         let ListaResultado = document.getElementById('resultado');
         ListaResultado.innerHTML = '';
         let elemento = document.createElement('li');
-        elemento.textContent = amigoSorteado;
+        elemento.textContent = "Tu amigo secreto es: "+ amigoSorteado;
         ListaResultado.appendChild(elemento);
+    }
+    else{
+        alert('No hay suficientes amigos en la lista');
     }
 }
